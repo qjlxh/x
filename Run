@@ -28,12 +28,13 @@ meijutt.tw###layui-layer1
 meijutt.tw###weixin_clos
 meijutt.tw##.a960_index
 meijutt.tw##.layui-layer-shade
-meijutt.tw##div.b-wrap.bbox:nth-child(3) > div:first-child
+meijutt.tw##div.b-wrap.bbox:nth-child(3)meijutt.tw>meijutt.twdiv:first-child
 meijutt.vip###cscpvrich6799_ab
 meijutt.vip###layui-layer1
 meijutt.vip###weixin_clos
 meijutt.vip##.a960_index
 meijutt.vip##.layui-layer-shade
+meijutt.vip##div.b-wrap.bbox:nth-child(3)meijutt.vip>meijutt.vipdiv:first-child
 mgtv.com###mask
 mgtv.com###privacy-policy
 mgtv.com##.close
