@@ -1,3 +1,6 @@
+###notice_container > div.event-notice > div.modal
+###notice_container > div.event-notice > div.modal > div.mask:first-child
+###notice_container > div.event-notice > div.modal > div.modal-box:last-child
 acfun.cn###appguideBox
 acfun.cn##.app-guide
 acfun.cn##.appguideBox.showguidebox
