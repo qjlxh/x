@@ -71,3 +71,10 @@ wn.pos.baidu.com/*
 y.qq.com##.mod_popup_mask
 youtube.com###dival
 youtube.com###info-contents > div:last-child
+@@||ip.skk.moe^
+@@||test-ipv6.com^
+@@||*.bilibili.com^
+@@||*.ip138.com^
+@@||*.kuaishou.com^
+@@||*.pornhub.com^
+@@||*.opera.com^
