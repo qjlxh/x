@@ -1,75 +1,79 @@
-youtube.com###info-contents > div:last-child
-youtube.com###dival
-y.qq.com##.mod_popup_mask
-wn.pos.baidu.com/*
-v.qq.com##.site_board_ads._dkb.show
-v.qq.com##.qp_feeds_entrance
-v.ctrlqq.com##div.wrapper:nth-child(2) > p.STYLE1:first-child > img
-v.ctrlqq.com##div.wrapper:nth-child(2) > div.container.clear:nth-child(3) > p:nth-child(2)
-v.ctrlqq.com##.STYLE1
-v.ctrlqq.com###showHongbaoMb
-v.ctrlqq.com###showHongbaoImg > div
-v.ctrlqq.com###showHongbaoImg
-v.baidu.com##.qzfc-ad-close
-v.baidu.com##.float-scroll-text-ad
-v.baidu.com##.close
-v.baidu.com###bdvideoFullscreencloseWrap
-v.baidu.com###PCindexpagehot2
-v.baidu.com###PCindexpagehot1
-v.baidu.com###PCFocusPosterOne3
-v.baidu.com###PCFocusPosterOne2
-v.baidu.com###PCFocusPosterOne1
-v.baidu.com###PCFocusPosterOne
-tv.sohu.com##.banner_img
-t12.baidu.com/*
-t11.baidu.com/*
-t10.baidu.com/*
-qianoo.cn###iaujwnefhw
-pos.baidu.com/*
-mgtv.com##.txt
-mgtv.com##.mgad__screen-img
-mgtv.com##.mad-bg
-mgtv.com##.m-top-ad
-mgtv.com##.m-headgg.m-headgg-normal
-mgtv.com##.m-agreement-mask
-mgtv.com##.flashbox
-mgtv.com##.flash.jump
-mgtv.com##.close
-mgtv.com###privacy-policy
-mgtv.com###mask
-meijutt.tw##.widget-weixin
-meijutt.tw##.layui-layer-shade
-meijutt.tw##.a960_index
-meijutt.tw###weixin_clos
-meijutt.tw###layui-layer1
-meijutt.tw###cscpvrich6799_ab
-live.douyin.com###_douyin_live_scroll_container_ > div > div.MXPhrGwK > div.SxMeCeGo.bjSLolNw.FajI1BLp:nth-child(3) > div.DFH1PTN6.GHbPXLO9.gy6iQuNw.__playerIsFull.__roomInfoBarOuter:first-child > div.aqK_4_5U:last-child
-iqiyi.com##.qy-popup-mask
-iqiyi.com##.pr-big-mask
-iqiyi.com##.header__promotion__popup, .bTest
-iqiyi.com##.fixed-box
-iqiyi.com###tvg-cover-box
-iqiyi.com###\31 000000000715 > div:nth-child(2)
-iqiyi.com###\31 000000000715
-huya.com###root > div.ssr-wrapper > div.js-responded-list:nth-child(4) > div.mod-list > div.box > div.box-recom:nth-child(2)
-huya.com###J_roomSideTop
-huya.com###J_roomPlayerLayer
-huya.com###J_playerMain > div.room-player-gift-placeholder:first-child
-huya.com###J_liveListHeader
-huya.com###J_hyHdNavItemGame > div.hy-nav-expand > a.hy-nav-link.hy-nav-link-ext.hy-nav-link-onlineGame:first-child
-huya.com###J_hyHdNavItemCloudGame > div.hy-nav-expand > a.hy-nav-link.hy-nav-link-ext:first-child
-f12.baidu.com/*
-f11.baidu.com/*
-f10.baidu.com/*
-douyu.com###listAll > section.layout-Module:first-child
-cpro.baidu.com/*
-cm.pos.baidu.com/*
-cm.baidu.com/*
-api.so.lianmeng.360.cn
-acfun.cn##.pause-display
-acfun.cn##.appguideBox.showguidebox
-acfun.cn##.app-guide
+
+###notice_container > div.event-notice > div.modal
+###notice_container > div.event-notice > div.modal > div.mask:first-child
+###notice_container > div.event-notice > div.modal > div.modal-box:last-child
 acfun.cn###appguideBox
+acfun.cn##.app-guide
+acfun.cn##.appguideBox.showguidebox
+acfun.cn##.pause-display
+api.so.lianmeng.360.cn
+cm.baidu.com/*
+cm.pos.baidu.com/*
+cpro.baidu.com/*
+douyu.com###listAll > section.layout-Module:first-child
+f10.baidu.com/*
+f11.baidu.com/*
+f12.baidu.com/*
+huya.com###J_hyHdNavItemCloudGame > div.hy-nav-expand > a.hy-nav-link.hy-nav-link-ext:first-child
+huya.com###J_hyHdNavItemGame > div.hy-nav-expand > a.hy-nav-link.hy-nav-link-ext.hy-nav-link-onlineGame:first-child
+huya.com###J_liveListHeader
+huya.com###J_playerMain > div.room-player-gift-placeholder:first-child
+huya.com###J_roomPlayerLayer
+huya.com###J_roomSideTop
+huya.com###root > div.ssr-wrapper > div.js-responded-list:nth-child(4) > div.mod-list > div.box > div.box-recom:nth-child(2)
+iqiyi.com###\31 000000000715
+iqiyi.com###\31 000000000715 > div:nth-child(2)
+iqiyi.com###tvg-cover-box
+iqiyi.com##.fixed-box
+iqiyi.com##.header__promotion__popup, .bTest
+iqiyi.com##.pr-big-mask
+iqiyi.com##.qy-popup-mask
+live.douyin.com###_douyin_live_scroll_container_ > div > div.MXPhrGwK > div.SxMeCeGo.bjSLolNw.FajI1BLp:nth-child(3) > div.DFH1PTN6.GHbPXLO9.gy6iQuNw.__playerIsFull.__roomInfoBarOuter:first-child > div.aqK_4_5U:last-child
+meijutt.tw###cscpvrich6799_ab
+meijutt.tw###layui-layer1
+meijutt.tw###weixin_clos
+meijutt.tw##.a960_index
+meijutt.tw##.layui-layer-shade
+meijutt.tw##.widget-weixin
+mgtv.com###mask
+mgtv.com###privacy-policy
+mgtv.com##.close
+mgtv.com##.flash.jump
+mgtv.com##.flashbox
+mgtv.com##.m-agreement-mask
+mgtv.com##.m-headgg.m-headgg-normal
+mgtv.com##.m-top-ad
+mgtv.com##.mad-bg
+mgtv.com##.mgad__screen-img
+mgtv.com##.txt
+pos.baidu.com/*
+qianoo.cn###iaujwnefhw
+t10.baidu.com/*
+t11.baidu.com/*
+t12.baidu.com/*
+tv.sohu.com##.banner_img
+v.baidu.com###PCFocusPosterOne
+v.baidu.com###PCFocusPosterOne1
+v.baidu.com###PCFocusPosterOne2
+v.baidu.com###PCFocusPosterOne3
+v.baidu.com###PCindexpagehot1
+v.baidu.com###PCindexpagehot2
+v.baidu.com###bdvideoFullscreencloseWrap
+v.baidu.com##.close
+v.baidu.com##.float-scroll-text-ad
+v.baidu.com##.qzfc-ad-close
+v.ctrlqq.com###showHongbaoImg
+v.ctrlqq.com###showHongbaoImg > div
+v.ctrlqq.com###showHongbaoMb
+v.ctrlqq.com##.STYLE1
+v.ctrlqq.com##div.wrapper:nth-child(2) > div.container.clear:nth-child(3) > p:nth-child(2)
+v.ctrlqq.com##div.wrapper:nth-child(2) > p.STYLE1:first-child > img
+v.qq.com##.qp_feeds_entrance
+v.qq.com##.site_board_ads._dkb.show
+wn.pos.baidu.com/*
+y.qq.com##.mod_popup_mask
+youtube.com###dival
+youtube.com###info-contents > div:last-child
 @@||www.bilibili.com^
 @@||test-ipv6.com^
 @@||ip.skk.moe^
@@ -78,6 +82,3 @@ acfun.cn###appguideBox
 @@||*.kuaishou.com^
 @@||*.ip138.com^
 @@||*.bilibili.com^
-###notice_container > div.event-notice > div.modal > div.modal-box:last-child
-###notice_container > div.event-notice > div.modal > div.mask:first-child
-###notice_container > div.event-notice > div.modal
