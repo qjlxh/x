@@ -1,7 +1,3 @@
-
-###notice_container > div.event-notice > div.modal
-###notice_container > div.event-notice > div.modal > div.mask:first-child
-###notice_container > div.event-notice > div.modal > div.modal-box:last-child
 acfun.cn###appguideBox
 acfun.cn##.app-guide
 acfun.cn##.appguideBox.showguidebox
@@ -74,6 +70,9 @@ wn.pos.baidu.com/*
 y.qq.com##.mod_popup_mask
 youtube.com###dival
 youtube.com###info-contents > div:last-child
+###notice_container > div.event-notice > div.modal
+###notice_container > div.event-notice > div.modal > div.mask:first-child
+###notice_container > div.event-notice > div.modal > div.modal-box:last-child
 @@||www.bilibili.com^
 @@||test-ipv6.com^
 @@||ip.skk.moe^
