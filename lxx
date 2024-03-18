@@ -54,9 +54,9 @@ proxy-providers:
     url: "https://sub.qjlxh.cloudns.org/URL"
 p0: &p0 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
 p1: &p1 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p0}
-p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|付|费|到|期|剩|余|套|餐|官|网|欢|迎|注|册|群|节|点|去|公"}
-p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|付|费|到|期|剩|余|套|餐|官|网|欢|迎|注|册|群|节|点|去|公"}
-p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw|付|费|到|期|剩|余|套|餐|官|网|欢|迎|注|册|群|节|点|去|公"}
+p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•"}
+p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠"}
+p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw"}
 p5: &p5 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)CN"}
 p6: &p6 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
 p7: &p7 {type: select, include-all: true, filter: "(?i)莱垠"}
