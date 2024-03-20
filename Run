@@ -1,3 +1,7 @@
+###notice_container > div.event-notice > div.modal
+###notice_container > div.event-notice > div.modal > div.mask:first-child
+###notice_container > div.event-notice > div.modal > div.modal-box:last-child
+###weixin_clos
 acfun.cn###appguideBox
 acfun.cn##.app-guide
 acfun.cn##.appguideBox.showguidebox
@@ -70,14 +74,11 @@ wn.pos.baidu.com/*
 y.qq.com##.mod_popup_mask
 youtube.com###dival
 youtube.com###info-contents > div:last-child
-###notice_container > div.event-notice > div.modal
-###notice_container > div.event-notice > div.modal > div.mask:first-child
-###notice_container > div.event-notice > div.modal > div.modal-box:last-child
-@@||www.bilibili.com^
-@@||test-ipv6.com^
-@@||ip.skk.moe^
-@@||*.pornhub.com^
-@@||*.opera.com^
-@@||*.kuaishou.com^
-@@||*.ip138.com^
 @@||*.bilibili.com^
+@@||*.ip138.com^
+@@||*.kuaishou.com^
+@@||*.opera.com^
+@@||*.pornhub.com^
+@@||ip.skk.moe^
+@@||test-ipv6.com^
+@@||www.bilibili.com^
