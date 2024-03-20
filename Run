@@ -1,7 +1,6 @@
 ###notice_container > div.event-notice > div.modal
 ###notice_container > div.event-notice > div.modal > div.mask:first-child
 ###notice_container > div.event-notice > div.modal > div.modal-box:last-child
-###weixin_clos
 acfun.cn###appguideBox
 acfun.cn##.app-guide
 acfun.cn##.appguideBox.showguidebox
@@ -29,12 +28,12 @@ iqiyi.com##.header__promotion__popup, .bTest
 iqiyi.com##.pr-big-mask
 iqiyi.com##.qy-popup-mask
 live.douyin.com###_douyin_live_scroll_container_ > div > div.MXPhrGwK > div.SxMeCeGo.bjSLolNw.FajI1BLp:nth-child(3) > div.DFH1PTN6.GHbPXLO9.gy6iQuNw.__playerIsFull.__roomInfoBarOuter:first-child > div.aqK_4_5U:last-child
-meijutt.tw###cscpvrich6799_ab
-meijutt.tw###layui-layer1
-meijutt.tw###weixin_clos
-meijutt.tw##.a960_index
-meijutt.tw##.layui-layer-shade
-meijutt.tw##.widget-weixin
+###cscpvrich6799_ab
+###layui-layer1
+###weixin_clos
+##.a960_index
+##.layui-layer-shade
+##.widget-weixin
 mgtv.com###mask
 mgtv.com###privacy-policy
 mgtv.com##.close
