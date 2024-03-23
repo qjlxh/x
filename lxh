@@ -36,10 +36,10 @@ proxy-providers:
     url: "https://sub01.jishu168.xyz/api/v1/client/subscribe?token=6168c2aef7e00fdff620291dce030052"
   No4:
     <<: *p
-    url: "https://sub.mianfeiyun.online/api/v1/client/subscribe?token=f9a533d9d0fbc6d2b75e60e82e51899e"
+    url: "https://api.yjcloud.xyz/api/v1/client/subscribe?token=ac34c86f9734f47a8eb91beb5e560928"
   No5:
     <<: *p
-    url: "https://api.yjcloud.xyz/api/v1/client/subscribe?token=ac34c86f9734f47a8eb91beb5e560928"
+    url: "https://sub.mianfeiyun.online/api/v1/client/subscribe?token=f9a533d9d0fbc6d2b75e60e82e51899e"
   No6:
     <<: *p
     url: "https://snangua.com/api/v1/client/subscribe?token=c256aafb31ec5c4656b8461896616930"
