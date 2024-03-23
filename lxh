@@ -36,10 +36,10 @@ proxy-providers:
     url: "https://sub01.jishu168.xyz/api/v1/client/subscribe?token=6168c2aef7e00fdff620291dce030052"
   No4:
     <<: *p
-    url: "https://api.yjcloud.xyz/api/v1/client/subscribe?token=ac34c86f9734f47a8eb91beb5e560928"
+    url: "https://sub.mianfeiyun.online/api/v1/client/subscribe?token=f9a533d9d0fbc6d2b75e60e82e51899e"
   No5:
     <<: *p
-    url: "https://sub.taco.homes/api/v1/client/subscribe?token=7907845dd99afb4f440ab8d319a84984"
+    url: "https://api.yjcloud.xyz/api/v1/client/subscribe?token=ac34c86f9734f47a8eb91beb5e560928"
   No6:
     <<: *p
     url: "https://snangua.com/api/v1/client/subscribe?token=c256aafb31ec5c4656b8461896616930"
@@ -54,9 +54,9 @@ proxy-providers:
     url: "https://sub.qjlxh.cloudns.org/URL"
 p0: &p0 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
 p1: &p1 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p0}
-p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|邀|频|餐"}
-p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|邀|频|餐"}
-p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|邀|频|餐"}
+p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
 p5: &p5 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)CN"}
 p6: &p6 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
 p7: &p7 {type: select, include-all: true, filter: "(?i)莱垠"}
