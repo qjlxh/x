@@ -54,9 +54,9 @@ proxy-providers:
     url: "https://sub.qjlxh.onflashdrive.app/URL"
 p0: &p0 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
 p1: &p1 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p0}
-p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•"}
-p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠"}
-p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw"}
+p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
 p5: &p5 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)CN"}
 p6: &p6 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
 p7: &p7 {type: select, include-all: true, filter: "(?i)莱垠"}
@@ -74,51 +74,27 @@ proxy-groups:
   - {name: 节点代理,  <<: *p9, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png"}
 rules:
     - RULE-SET,category-ads-all_domain,REJECT
-    - GEOSITE,category-ads-all,REJECT
-    - GEOIP,lan,全球直连,no-resolve
     - RULE-SET,facebook_domain,节点选择
-    - GEOSITE,facebook,节点选择
     - RULE-SET,github_domain,节点选择
-    - GEOSITE,github,节点选择
     - RULE-SET,google_domain,节点选择
-    - GEOSITE,google,节点选择
     - RULE-SET,netflix_domain,字节跳动
-    - GEOSITE,netflix,字节跳动
     - RULE-SET,openai_domain,字节跳动
-    - GEOSITE,openai,字节跳动
     - RULE-SET,telegram_domain,节点选择
-    - GEOSITE,telegram,节点选择
     - RULE-SET,tiktok_domain,字节跳动
-    - GEOSITE,tiktok,字节跳动
     - RULE-SET,twitter_domain,节点选择
-    - GEOSITE,twitter,节点选择
     - RULE-SET,youtube_domain,节点选择
-    - GEOSITE,youtube,节点选择
     - RULE-SET,geolocation-!cn_domain,节点选择
-    - GEOSITE,geolocation-!cn,节点选择
     - RULE-SET,facebook_ip,节点选择
-    - GEOIP,facebook,节点选择
     - RULE-SET,google_ip,节点选择
-    - GEOIP,google,节点选择
     - RULE-SET,netflix_ip,字节跳动
-    - GEOIP,netflix,字节跳动
     - RULE-SET,twitter_ip,节点选择
-    - GEOIP,twitter,节点选择
     - RULE-SET,telegram_ip,节点选择
-    - GEOIP,telegram,节点选择
     - RULE-SET,us_ip,节点选择
-    - GEOIP,us,节点选择
-    - GEOSITE,microsoft@cn,全球直连
     - RULE-SET,apple-cn_domain,全球直连
-    - GEOSITE,apple-cn,全球直连
     - RULE-SET,private_domain,全球直连
-    - GEOSITE,private,全球直连
     - RULE-SET,cn_domain,全球直连
-    - GEOSITE,cn,全球直连
     - RULE-SET,private_ip,全球直连,no-resolve
-    - GEOIP,private,全球直连,no-resolve
     - RULE-SET,cn_ip,全球直连,no-resolve
-    - GEOIP,cn,全球直连,no-resolve
     - MATCH,节点选择
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: text}
