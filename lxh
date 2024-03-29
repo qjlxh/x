@@ -33,7 +33,7 @@ proxy-providers:
     url: "https://fergsd.vbdf.lol/api/v1/client/subscribe?token=44255f9af6aa043b9a8a80e91a4af3fd"
   No3:
     <<: *p
-    url: "https://sub01.jishu168.xyz/api/v1/client/subscribe?token=6168c2aef7e00fdff620291dce030052"
+    url: "https://lafuseevansbazc.only4subs.uk/api/v1/client/subscribe?token=b2e29a17f668c884ab02278b19119e60"
   No4:
     <<: *p
     url: "https://api.yjcloud.xyz/api/v1/client/subscribe?token=ac34c86f9734f47a8eb91beb5e560928"
