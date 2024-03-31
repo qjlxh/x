@@ -45,10 +45,10 @@ proxy-providers:
     url: ""
   No7:
     <<: *p
-    url: "https://x.qjlxx.onflashdrive.app/a26c9907-8567-491f-9804-772996920399?notls"
+    url: "https://x.qjlxx.onflashdrive.app/a26c9907-8567-491f-9804-772996920399"
   No8:
     <<: *p
-    url: "https://h.qjlxh.onflashdrive.app/87a6d70d-3e70-4463-bd8f-f1a548911210?notls"
+    url: "https://h.qjlxh.onflashdrive.app/87a6d70d-3e70-4463-bd8f-f1a548911210"
   No9:
     <<: *p
     url: "https://sub.qjlxh.onflashdrive.app/URL"
