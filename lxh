@@ -30,7 +30,7 @@ proxy-providers:
     url: "https://moes.lnaspiring.com/Moe233-Subs/wel/api/v1/client/subscribe?token=95fead777ea516d1b88f37e03ec82461"
   No2:
     <<: *p
-    url: "https://fergsd.vbdf.lol/api/v1/client/subscribe?token=44255f9af6aa043b9a8a80e91a4af3fd"
+    url: "https://mly.xiyunchen.cn/api/v1/client/subscribe?token=44255f9af6aa043b9a8a80e91a4af3fd"
   No3:
     <<: *p
     url: "https://oss.pithecia.com/api/v1/client/subscribe?token=07e804f054383a708b71440ece28393a"
