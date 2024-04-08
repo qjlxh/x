@@ -45,13 +45,13 @@ proxy-providers:
     url: "https://snangua.com/api/v1/client/subscribe?token=c256aafb31ec5c4656b8461896616930"
   No7:
     <<: *p
-    url: "https://x.qjlxx.onflashdrive.app/a26c9907-8567-491f-9804-772996920399"
+    url: "https://x.qjlxh.x10.mx/a26c9907-8567-491f-9804-772996920399"
   No8:
     <<: *p
-    url: "https://h.qjlxh.onflashdrive.app/87a6d70d-3e70-4463-bd8f-f1a548911210"
+    url: "https://h.qjlxh.x10.mx/87a6d70d-3e70-4463-bd8f-f1a548911210"
   No9:
     <<: *p
-    url: "https://sub.qjlxh.onflashdrive.app/URL"
+    url: "https://sub.qjlxh.x10.mx/URL"
 p0: &p0 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
 p1: &p1 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p0}
 p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
