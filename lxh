@@ -45,10 +45,10 @@ proxy-providers:
     url: "https://snangua.com/api/v1/client/subscribe?token=c256aafb31ec5c4656b8461896616930"
   No7:
     <<: *p
-    url: "https://x.qjlxh.x10.mx/a26c9907-8567-491f-9804-772996920399"
+    url: "https://x.x.x10.mx/a26c9907-8567-491f-9804-772996920399"
   No8:
     <<: *p
-    url: "https://h.qjlxh.x10.mx/87a6d70d-3e70-4463-bd8f-f1a548911210"
+    url: "https://h.h.x10.mx/87a6d70d-3e70-4463-bd8f-f1a548911210"
   No9:
     <<: *p
     url: "https://sub.qjlxh.x10.mx/URL"
