@@ -1,11 +1,85 @@
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.192.42:942/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.195.216:946/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.195.172:2506/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.195.211:5279/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.195.131:5279/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.192.245:5279/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.192.160:2506/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.192.108:2506/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.195.163:5279/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.192.239:5279/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
-wireguard://MCam8s4MIKsuKhO4JgijbncnJvsxwXIW%2BJorV1jds0c%3D@162.159.192.52:5279/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&address=172.16.0.2%2F32&mtu=1280#%E8%8E%B1%E5%9E%A0
+{
+    "log": {
+      "level": "warn",
+      "timestamp": true
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "tcp://8.8.8.8"
+        },
+        {
+          "tag": "local_local",
+          "address": "223.5.5.5",
+          "detour": "direct"
+        }
+      ],
+      "rules": [
+        {
+          "outbound": "any",
+          "server": "local_local"
+        }
+      ]
+    },
+    "inbounds": [
+      {
+        "type": "socks",
+        "tag": "socks",
+        "listen": "127.0.0.1",
+        "listen_port": 10808,
+        "sniff": true,
+        "sniff_override_destination": true
+      },
+      {
+        "type": "http",
+        "tag": "http",
+        "listen": "127.0.0.1",
+        "listen_port": 10809,
+        "sniff": true,
+        "sniff_override_destination": true
+      }
+    ],
+    "outbounds": [
+      {
+        "type": "wireguard",
+        "tag": "proxy",
+        "server": "162.159.192.42",
+        "server_port": 942,
+        "local_address": [
+          "172.16.0.2/32"
+        ],
+        "private_key": "MCam8s4MIKsuKhO4JgijbncnJvsxwXIW\u002BJorV1jds0c=",
+        "peer_public_key": "bmXOC\u002BF1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+        "reserved": [],
+        "mtu": 1280
+      },
+      {
+        "type": "direct",
+        "tag": "direct"
+      },
+      {
+        "type": "block",
+        "tag": "block"
+      },
+      {
+        "type": "dns",
+        "tag": "dns_out"
+      }
+    ],
+    "route": {
+      "rules": [
+        {
+          "outbound": "dns_out",
+          "protocol": [
+            "dns"
+          ]
+        },
+        {
+          "outbound": "proxy",
+          "port_range": [
+            "0:65535"
+          ]
+        }
+      ]
+    }
+  }
