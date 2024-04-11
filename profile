@@ -17,8 +17,8 @@ custom_proxy_group=字节跳动`url-test`(^(?!.*(莱垠|•|🇭🇰|香港|hk|�
 custom_proxy_group=中国`url-test`(CN)`http://www.gstatic.com/generate_204`180,,50
 custom_proxy_group=节能`url-test`(•.)`http://www.gstatic.com/generate_204`180,,50
 custom_proxy_group=莱垠`select`(莱垠)
-custom_proxy_group=全球直连`select`[]DIRECT`[]节点选择`[]自动选择`[]负载均衡`[]字节跳动`[]中国`[]节能`[]莱垠
-custom_proxy_group=节点代理`select`[]节点选择`[]DIRECT`[]自动选择`[]负载均衡`[]字节跳动`[]中国`[]节能`[]莱垠
+custom_proxy_group=全球直连`select`[]DIRECT`[]节点选择`[]负载均衡`[]字节跳动`[]中国`[]节能
+custom_proxy_group=节点代理`select`[]节点选择`[]DIRECT`[]负载均衡`[]字节跳动`[]中国`[]节能
 
 
 
