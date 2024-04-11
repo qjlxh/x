@@ -1,11 +1,10 @@
 [custom]
 
 
-ruleset=字节跳动,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.list
-ruleset=字节跳动,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/us.list
-ruleset=字节跳动,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.list
-ruleset=字节跳动,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.list
-ruleset=字节跳动,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.list
+ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
+ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
 ruleset=全球直连,[]GEOIP,CN
 ruleset=节点代理,[]FINAL
 
@@ -19,6 +18,7 @@ custom_proxy_group=节能`url-test`(•.)`http://www.gstatic.com/generate_204`18
 custom_proxy_group=莱垠`select`(莱垠)
 custom_proxy_group=全球直连`select`[]DIRECT`[]节点选择`[]负载均衡`[]字节跳动`[]中国`[]节能
 custom_proxy_group=节点代理`select`[]节点选择`[]DIRECT`[]负载均衡`[]字节跳动`[]中国`[]节能
+
 
 
 
