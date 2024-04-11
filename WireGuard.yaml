@@ -15,16 +15,12 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 莱垠-WARP-01, server: 188.114.99.244, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-02, server: 188.114.97.90, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-03, server: 162.159.192.152, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-04, server: 162.159.192.196, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-05, server: 188.114.98.181, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-06, server: 162.159.195.40, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-07, server: 162.159.192.94, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-08, server: 188.114.97.34, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-09, server: 188.114.97.228, port: 3854, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: 莱垠-WARP-10, server: 162.159.195.176, port: 8886, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•01, server: 162.159.195.216, port: 946, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•02, server: 162.159.195.211, port: 5279, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•03, server: 162.159.195.172, port: 2506, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•04, server: 162.159.192.245, port: 5279, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•05, server: 162.159.192.160, port: 2506, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•06, server: 162.159.192.108, port: 2506, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -36,16 +32,12 @@ proxy-groups:
       - 节能
       - 莱垠
       - DIRECT
-      - 莱垠-WARP-01
-      - 莱垠-WARP-02
-      - 莱垠-WARP-03
-      - 莱垠-WARP-04
-      - 莱垠-WARP-05
-      - 莱垠-WARP-06
-      - 莱垠-WARP-07
-      - 莱垠-WARP-08
-      - 莱垠-WARP-09
-      - 莱垠-WARP-10
+      - Warp•01
+      - Warp•02
+      - Warp•03
+      - Warp•04
+      - Warp•05
+      - Warp•06
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -88,16 +80,12 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - 莱垠-WARP-01
-      - 莱垠-WARP-02
-      - 莱垠-WARP-03
-      - 莱垠-WARP-04
-      - 莱垠-WARP-05
-      - 莱垠-WARP-06
-      - 莱垠-WARP-07
-      - 莱垠-WARP-08
-      - 莱垠-WARP-09
-      - 莱垠-WARP-10
+      - Warp•01
+      - Warp•02
+      - Warp•03
+      - Warp•04
+      - Warp•05
+      - Warp•06
   - name: 全球直连
     type: select
     proxies:
