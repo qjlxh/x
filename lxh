@@ -54,9 +54,9 @@ proxy-providers:
     url: "https://sub.qjlxh.x10.mx/URL"
 p0: &p0 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
 p1: &p1 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p0}
-p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇨🇳|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
-p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|🇨🇳|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
-p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)莱垠|•|🇭🇰|香港|hk|🇹🇼|台湾|tw|🇨🇳|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|•|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|•|付|余|公|册|到|剩|去|套|官|期|欢|注|点|网|群|节|费|迎|道|钱|频|餐"}
+p4: &p4 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)🇺🇸|美国|us"}
 p5: &p5 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)CN"}
 p6: &p6 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
 p7: &p7 {type: select, include-all: true, filter: "(?i)莱垠"}
@@ -89,7 +89,7 @@ rules:
     - RULE-SET,netflix_ip,字节跳动
     - RULE-SET,twitter_ip,节点选择
     - RULE-SET,telegram_ip,节点选择
-    - RULE-SET,us_ip,节点选择
+    - RULE-SET,us_ip,字节跳动
     - RULE-SET,apple-cn_domain,全球直连
     - RULE-SET,private_domain,全球直连
     - RULE-SET,cn_domain,全球直连
