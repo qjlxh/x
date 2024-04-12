@@ -33,7 +33,7 @@ proxy-providers:
     url: "https://mly.xiyunchen.cn/api/v1/client/subscribe?token=44255f9af6aa043b9a8a80e91a4af3fd"
   No3:
     <<: *p
-    url: "https://oss.pithecia.com/api/v1/client/subscribe?token=07e804f054383a708b71440ece28393a"
+    url: "https://lafuseevansbazc.only4subs.uk/api/v1/client/subscribe?token=b2e29a17f668c884ab02278b19119e60"
   No4:
     <<: *p
     url: "https://sub.taco.homes/api/v1/client/subscribe?token=7907845dd99afb4f440ab8d319a84984"
