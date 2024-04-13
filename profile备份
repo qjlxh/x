@@ -1,7 +1,8 @@
 [custom]
 
 
-ruleset=全球直连,[]GEOIP,CN
+ruleset=节点选择,[]GEOIP,US,no-resolve
+ruleset=全球直连,[]GEOIP,CN,no-resolve
 ruleset=节点代理,[]FINAL
 
 custom_proxy_group=节点选择`select`[]自动选择`[]负载均衡`[]中国`[]节能`[]莱垠`[]DIRECT`.*
