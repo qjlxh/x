@@ -6,9 +6,9 @@ ruleset=全球直连,https://raw.githubusercontent.com/qjlxh/xxxx/main/zg.list
 ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 ruleset=字节跳动,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
-ruleset=外国,[]GEOIP,US,no-resolve
 ruleset=全球直连,[]GEOIP,CN,no-resolve
 ruleset=节点代理,[]FINAL
+
 
 
 
