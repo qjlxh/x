@@ -53,21 +53,21 @@ proxy-providers:
     <<: *p
     url: "https://sub.qjlxh.x10.mx/URL"
 p0: &p0 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
-p1: &p1 {type: select, proxies: [自动选择, 字节跳动, 中国, 美国, 节能, 莱垠],  <<: *p0}
+p1: &p1 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p0}
 p2: &p2 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|•|下|久|云|付|会|余|使|倍|免|到|剩|可|员|天|套|官|期|次|欢|永|流|率|用|离|网|置|群|费|距|迎|速|道|重|量|频|餐|高"}
-p3: &p3 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|🇭🇰|香港|hk|🇹🇼|台湾|tw|•|下|久|云|付|会|余|使|倍|免|到|剩|可|员|天|套|官|期|次|欢|永|流|率|用|离|网|置|群|费|距|迎|速|道|重|量|频|餐|高"}
-p4: &p4 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)CN"}
+p3: &p3 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|•|下|久|云|付|会|余|使|倍|免|到|剩|可|员|天|套|官|期|次|欢|永|流|率|用|离|网|置|群|费|距|迎|速|道|重|量|频|餐|高"}
+p4: &p4 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|🇭🇰|香港|hk|🇹🇼|台湾|tw|•|下|久|云|付|会|余|使|倍|免|到|剩|可|员|天|套|官|期|次|欢|永|流|率|用|离|网|置|群|费|距|迎|速|道|重|量|频|餐|高"}
 p5: &p5 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)🇺🇸|美国|us"}
 p6: &p6 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
 p7: &p7 {type: select, include-all: true, filter: "(?i)莱垠"}
-p8: &p8 {type: select, proxies: [DIRECT, 节点选择, 字节跳动, 中国, 美国, 节能, 莱垠]}
-p9: &p9 {type: select, proxies: [节点选择, DIRECT, 字节跳动, 中国, 美国, 节能, 莱垠]}
+p8: &p8 {type: select, proxies: [DIRECT, 节点选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠]}
+p9: &p9 {type: select, proxies: [节点选择, DIRECT, 负载均衡, 字节跳动, 中国, 节能, 莱垠]}
 proxy-groups:
   - {name: 节点选择,  <<: *p1, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Heart.png"}
   - {name: 自动选择,  <<: *p2, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/QQ.png"}
-  - {name: 字节跳动,  <<: *p3, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png"}
-  - {name: 中国,  <<: *p4, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png"}
-  - {name: 美国,  <<: *p5, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Luffy.png"}
+  - {name: 负载均衡,  <<: *p3, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Luffy.png"}
+  - {name: 字节跳动,  <<: *p4, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png"}
+  - {name: 中国,  <<: *p5, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png"}
   - {name: 节能,  <<: *p6, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bamboo.png"}
   - {name: 莱垠,  <<: *p7, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Panda.png"}
   - {name: 全球直连,  <<: *p8, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png"}
@@ -89,7 +89,7 @@ rules:
     - RULE-SET,netflix_ip,字节跳动
     - RULE-SET,twitter_ip,节点选择
     - RULE-SET,telegram_ip,节点选择
-    - RULE-SET,us_ip,美国
+    - RULE-SET,us_ip,中国
     - RULE-SET,apple-cn_domain,全球直连
     - RULE-SET,private_domain,全球直连
     - RULE-SET,cn_domain,全球直连
