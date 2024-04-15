@@ -76,8 +76,8 @@ proxy-groups:
   - {name: 节点代理,  <<: *p10, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png"}
 rules:
     - RULE-SET,category-ads-all_domain,REJECT
-    - RULE-SET,zg_domain,全球直连
-    - RULE-SET,wg_domain,规则
+    - RULE-SET,direct_domain,全球直连
+    - RULE-SET,proxy_domain,规则
     - RULE-SET,facebook_domain,节点选择
     - RULE-SET,github_domain,节点选择
     - RULE-SET,google_domain,节点选择
@@ -104,12 +104,12 @@ rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: text}
   domain: &domain {type: http, interval: 86400, behavior: domain, format: text}
 rule-providers:
-  wg_domain:
+  proxy_domain:
     <<: *domain
-    url: "https://raw.githubusercontent.com/qjlxh/xxxx/x/wg.list"
-  zg_domain:
+    url: "https://raw.githubusercontent.com/qjlxh/xxxx/x/proxy.list"
+  direct_domain:
     <<: *domain
-    url: "https://raw.githubusercontent.com/qjlxh/xxxx/x/zg.list"
+    url: "https://raw.githubusercontent.com/qjlxh/xxxx/x/direct.list"
   apple-cn_domain:
     <<: *domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.list"
