@@ -76,7 +76,7 @@ proxy-groups:
   - {name: 节点代理,  <<: *p10, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png"}
 rules:
     - RULE-SET,category-ads-all_domain,REJECT
-    - RULE-SET,wg_free,节点选择
+    - RULE-SET,wg_free,美国
     - RULE-SET,facebook_domain,节点选择
     - RULE-SET,github_domain,节点选择
     - RULE-SET,google_domain,节点选择
