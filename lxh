@@ -58,8 +58,8 @@ p02: &p02 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?
 p03: &p03 {type: load-balance, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|•|下|久|云|付|会|余|使|倍|免|到|剩|可|员|天|套|官|期|次|欢|永|流|率|用|离|网|置|群|费|距|迎|速|道|重|量|频|餐|高"}
 p04: &p04 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|🇭🇰|香港|hk|🇹🇼|台湾|tw|•|下|久|云|付|会|余|使|倍|免|到|剩|可|员|天|套|官|期|次|欢|永|流|率|用|离|网|置|群|费|距|迎|速|道|重|量|频|餐|高"}
 p05: &p05 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)CN"}
-p06: &p06 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)🇺🇸|美国|us"}
-p07: &p07 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
+p06: &p06 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)•"}
+p07: &p07 {type: url-test, include-all: true, tolerance: 10, filter: "(?i)🇺🇸|美国|us"}
 p08: &p08 {type: select, include-all: true, filter: "(?i)莱垠"}
 p09: &p09 {type: select, proxies: [DIRECT, 节点选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠]}
 p10: &p10 {type: select, proxies: [节点选择, DIRECT, 负载均衡, 字节跳动, 中国, 节能, 莱垠]}
@@ -69,8 +69,8 @@ proxy-groups:
   - {name: 负载均衡,  <<: *p03, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Luffy.png"}
   - {name: 字节跳动,  <<: *p04, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png"}
   - {name: 中国,  <<: *p05, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China.png"}
-  - {name: 美国,  <<: *p06, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/United_States.png"}
-  - {name: 节能,  <<: *p07, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bamboo.png"}
+  - {name: 节能,  <<: *p06, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Bamboo.png"}
+  - {name: 规则,  <<: *p07, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Available_Alt.png"}
   - {name: 莱垠,  <<: *p08, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Panda.png"}
   - {name: 全球直连,  <<: *p09, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/China_Map.png"}
   - {name: 节点代理,  <<: *p10, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png"}
@@ -91,7 +91,7 @@ rules:
     - RULE-SET,netflix_ip,字节跳动
     - RULE-SET,twitter_ip,节点选择
     - RULE-SET,telegram_ip,节点选择
-    - RULE-SET,us_ip,美国
+    - RULE-SET,us_ip,规则
     - RULE-SET,apple-cn_domain,全球直连
     - RULE-SET,private_domain,全球直连
     - RULE-SET,cn_domain,全球直连
