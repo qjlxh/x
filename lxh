@@ -77,6 +77,7 @@ proxy-groups:
 rules:
     - RULE-SET,category-ads-all_domain,REJECT
     - RULE-SET,wg_free,美国
+    - RULE-SET,zg_free,全球直连
     - RULE-SET,facebook_domain,节点选择
     - RULE-SET,github_domain,节点选择
     - RULE-SET,google_domain,节点选择
@@ -93,7 +94,6 @@ rules:
     - RULE-SET,twitter_ip,节点选择
     - RULE-SET,telegram_ip,节点选择
     - RULE-SET,us_ip,节点选择
-    - RULE-SET,zg_free,全球直连
     - RULE-SET,apple-cn_domain,全球直连
     - RULE-SET,private_domain,全球直连
     - RULE-SET,cn_domain,全球直连
