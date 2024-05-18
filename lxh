@@ -42,7 +42,7 @@ proxy-providers:
     url: "https://sub.mianfeiyun.online/api/v1/client/subscribe?token=f9a533d9d0fbc6d2b75e60e82e51899e"
   No6:
     <<: *p
-    url: "https://snangua.com/api/v1/client/subscribe?token=c256aafb31ec5c4656b8461896616930"
+    url: "https://warp.qjlxh.x10.mx/URL"
   No7:
     <<: *p
     url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
