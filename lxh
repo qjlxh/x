@@ -42,13 +42,13 @@ proxy-providers:
     url: "https://sub.mianfeiyun.online/api/v1/client/subscribe?token=f9a533d9d0fbc6d2b75e60e82e51899e"
   No6:
     <<: *p
-    url: "https://warp.qjlxh.x10.mx/WARP"
+    url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
   No7:
     <<: *p
-    url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
+    url: "https://trojan.h.x10.mx/TROJAN"
   No8:
     <<: *p
-    url: "https://trojan.h.x10.mx/TROJAN"
+    url: "https://warp.qjlxh.x10.mx/WARP"
   No9:
     <<: *p
     url: "https://sub.qjlxh.x10.mx/URL"
