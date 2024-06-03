@@ -1,6 +1,20 @@
+###cscpvrich6799_ab
+###layui-layer1
 ###notice_container > div.event-notice > div.modal
 ###notice_container > div.event-notice > div.modal > div.mask:first-child
 ###notice_container > div.event-notice > div.modal > div.modal-box:last-child
+###weixin_clos
+##.a960_index
+##.layui-layer-shade
+##.widget-weixin
+@@||*.bilibili.com^
+@@||*.ip138.com^
+@@||*.kuaishou.com^
+@@||*.opera.com^
+@@||*.pornhub.com^
+@@||ip.skk.moe^
+@@||test-ipv6.com^
+@@||www.bilibili.com^
 acfun.cn###appguideBox
 acfun.cn##.app-guide
 acfun.cn##.appguideBox.showguidebox
@@ -22,18 +36,13 @@ huya.com###J_roomSideTop
 huya.com###root > div.ssr-wrapper > div.js-responded-list:nth-child(4) > div.mod-list > div.box > div.box-recom:nth-child(2)
 iqiyi.com###\31 000000000715
 iqiyi.com###\31 000000000715 > div:nth-child(2)
+iqiyi.com###root > div.App_App__p1BHw:last-child > div.pages_pages__UkzcY > div.popwin_fullCover__FF8r0.popwin_fullCoverCtrl__HJJeb:last-child
 iqiyi.com###tvg-cover-box
 iqiyi.com##.fixed-box
 iqiyi.com##.header__promotion__popup, .bTest
 iqiyi.com##.pr-big-mask
 iqiyi.com##.qy-popup-mask
 live.douyin.com###_douyin_live_scroll_container_ > div > div.MXPhrGwK > div.SxMeCeGo.bjSLolNw.FajI1BLp:nth-child(3) > div.DFH1PTN6.GHbPXLO9.gy6iQuNw.__playerIsFull.__roomInfoBarOuter:first-child > div.aqK_4_5U:last-child
-###cscpvrich6799_ab
-###layui-layer1
-###weixin_clos
-##.a960_index
-##.layui-layer-shade
-##.widget-weixin
 mgtv.com###mask
 mgtv.com###privacy-policy
 mgtv.com##.close
@@ -73,11 +82,3 @@ wn.pos.baidu.com/*
 y.qq.com##.mod_popup_mask
 youtube.com###dival
 youtube.com###info-contents > div:last-child
-@@||*.bilibili.com^
-@@||*.ip138.com^
-@@||*.kuaishou.com^
-@@||*.opera.com^
-@@||*.pornhub.com^
-@@||ip.skk.moe^
-@@||test-ipv6.com^
-@@||www.bilibili.com^
