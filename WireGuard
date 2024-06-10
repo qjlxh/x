@@ -15,12 +15,15 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: Warp•01, server: 162.159.192.107, port: 988, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: Warp•02, server: 162.159.192.204, port: 5279, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: Warp•03, server: 162.159.192.204, port: 988, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: Warp•04, server: 162.159.195.124, port: 5279, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: Warp•05, server: 162.159.195.125, port: 5279, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
-  - {name: Warp•06, server: 162.159.195.125, port: 5279, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, mtu: 1280, udp: true}
+  - {name: Warp•01, server: 2606:4700:d0::5709:1f54:0e14:8461, port: 878, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•02, server: 2606:4700:d0::f17d:605a:fea0:da99, port: 5956, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•03, server: 2606:4700:d0::4fbb:1f01:2063:da6a, port: 878, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•04, server: 2606:4700:d1::b51d:a3d0:8a17:36a2, port: 5956, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•05, server: 2606:4700:d1::d733:af55:dcbb:0364, port: 5956, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•06, server: 2606:4700:d0::676a:72cb:a75c:4844, port: 5956, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•07, server: 2606:4700:d1::99e2:abf8:ba67:7b63, port: 878, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•08, server: 2606:4700:d1::544c:b318:a145:2fee, port: 878, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
+  - {name: Warp•09, server: 2606:4700:d0::32ee:435d:9f02:794d, port: 878, reality-opts: {public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=}, client-fingerprint: chrome, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: MCam8s4MIKsuKhO4JgijbncnJvsxwXIW+JorV1jds0c=, ip: 172.16.0.2, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true, udp: true}
 proxy-groups:
   - name: PROXY
     type: url-test
@@ -31,6 +34,9 @@ proxy-groups:
       - Warp•04
       - Warp•05
       - Warp•06
+      - Warp•07
+      - Warp•08
+      - Warp•09
 rules:
   - GEOIP,CN,DIRECT,no-resolve
   - MATCH,PROXY
