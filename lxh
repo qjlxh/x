@@ -30,26 +30,14 @@ proxy-providers:
     url: "https://moes.lnaspiring.com/Moe233-Subs/wel/api/v1/client/subscribe?token=95fead777ea516d1b88f37e03ec82461"
   No2:
     <<: *p
-    url: "https://mly.xiyunchen.cn/api/v1/client/subscribe?token=44255f9af6aa043b9a8a80e91a4af3fd"
+    url: "https://warp.qjlxh.x10.mx/WARP"
   No3:
     <<: *p
-    url: "https://lafuseevansbazc.only4subs.uk/api/v1/client/subscribe?token=b2e29a17f668c884ab02278b19119e60"
+    url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
   No4:
     <<: *p
-    url: "https://sub.taco.homes/api/v1/client/subscribe?token=7907845dd99afb4f440ab8d319a84984"
-  No5:
-    <<: *p
-    url: "https://sub.mianfeiyun.online/api/v1/client/subscribe?token=f9a533d9d0fbc6d2b75e60e82e51899e"
-  No6:
-    <<: *p
-    url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
-  No7:
-    <<: *p
     url: "https://trojan.h.x10.mx/TROJAN"
-  No8:
-    <<: *p
-    url: "https://warp.qjlxh.x10.mx/WARP"
-  No9:
+  No5:
     <<: *p
     url: "https://sub.qjlxh.x10.mx/URL"
 p00: &p00 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
