@@ -30,7 +30,7 @@ proxy-providers:
     url: "https://moes.lnaspiring.com/Moe233-Subs/wel/api/v1/client/subscribe?token=95fead777ea516d1b88f37e03ec82461"
   No2:
     <<: *p
-    url: "https://warp.qjlxh.x10.mx/WARP"
+    url: ""
   No3:
     <<: *p
     url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
@@ -38,6 +38,18 @@ proxy-providers:
     <<: *p
     url: "https://trojan.h.x10.mx/TROJAN"
   No5:
+    <<: *p
+    url: ""
+  No6:
+    <<: *p
+    url: ""
+  No7:
+    <<: *p
+    url: ""
+  No8:
+    <<: *p
+    url: ""
+  No9:
     <<: *p
     url: "https://sub.qjlxh.x10.mx/URL"
 p00: &p00 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
