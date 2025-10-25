@@ -27,31 +27,22 @@ p: &p {type: http, interval: 86400, health-check: {enable: true, url: "https://w
 proxy-providers:
   No1:
     <<: *p
-    url: "https://moes.lnaspiring.com/Moe233-Subs/wel/api/v1/client/subscribe?token=95fead777ea516d1b88f37e03ec82461"
+    url: "https://vless.qjlxx.cloudns.org/158bc858-00bd-417c-92d9-2a2ffbd71884"
   No2:
     <<: *p
-    url: ""
+    url: "https://trojan.qjlxh.cloudns.org/TROJAN"
   No3:
     <<: *p
-    url: "https://vless.x.x10.mx/158bc858-00bd-417c-92d9-2a2ffbd71884"
+    url: "https://sub.qjlxh.cloudns.org/URL"
   No4:
     <<: *p
-    url: "https://trojan.h.x10.mx/TROJAN"
+    url: "https://SOS.CMLiussss.net/auto"
   No5:
     <<: *p
-    url: ""
+    url: "https://dingy.cnotv.com"
   No6:
     <<: *p
-    url: ""
-  No7:
-    <<: *p
-    url: ""
-  No8:
-    <<: *p
-    url: ""
-  No9:
-    <<: *p
-    url: "https://sub.qjlxh.x10.mx/URL"
+    url: "https://baigou.kkhhddnn.cn/baidu666?token=1423185b58da7cb291687a16ef8f1b7f"
 p00: &p00 {type: select, include-all: true, filter: "(?i)🇦🇫|🇦🇶|🇦🇷|🇦🇹|🇦🇺|🇧🇩|🇧🇲|🇧🇷|🇧🇹|🇧🇾|🇨🇦|🇨🇫|🇨🇭|🇨🇱|🇨🇳|🇨🇴|🇨🇺|🇨🇽|🇩🇪|🇩🇰|🇪🇬|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇷|🇬🇧|🇬🇮|🇬🇱|🇬🇳|🇬🇷|🇭🇰|🇭🇺|🇮🇩|🇮🇪|🇮🇳|🇮🇶|🇮🇷|🇮🇸|🇯🇲|🇯🇵|🇰🇭|🇰🇵|🇰🇷|🇰🇼|🇱🇦|🇱🇹|🇲🇲|🇲🇳|🇲🇴|🇲🇺|🇲🇻|🇲🇽|🇲🇾|🇳🇱|🇳🇴|🇳🇵|🇳🇿|🇵🇦|🇵🇪|🇵🇭|🇵🇰|🇵🇱|🇵🇸|🇵🇹|🇷🇺|🇸🇦|🇺🇳|🇸🇪|🇸🇬|🇸🇴|🇸🇾|🇹🇭|🇹🇯|🇹🇷|🇹🇼|🇺🇦|🇺🇬|🇺🇸|🇻🇦|🇻🇪|🇻🇳|🇼🇸|🇿🇦|🇿🇼"}
 p01: &p01 {type: select, proxies: [自动选择, 负载均衡, 字节跳动, 中国, 节能, 莱垠],  <<: *p00}
 p02: &p02 {type: url-test, include-all: true, tolerance: 10, exclude-filter: "(?i)🇨🇳|莱垠|•|三|下|中|久|云|付|优|会|余|使|信|倍|先|免|公|内|到|剩|化|去|可|告|员|天|奈|套|官|家|宽|并|度|建|或|新|更|最|期|极|核|次|欢|永|油|流|点|版|率|用|电|的|离|管|网|置|群|者|节|菲|议|请|费|距|载|迎|速|道|重|量|非|频|餐|高"}
